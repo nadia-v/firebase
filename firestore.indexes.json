@@ -1,0 +1,50 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "housing_posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "adStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "editDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "marketplace_posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "adStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "editDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+
+    {
+      "collectionGroup": "social_posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "adStatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "editDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
+
+
