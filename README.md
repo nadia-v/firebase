@@ -1,4 +1,7 @@
 # firebase
+
+04/20/2019
+
 Fixed the function for making new posts for these following tags:
 1. marketplace_posts
 2. housing_posts
